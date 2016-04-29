@@ -3,6 +3,16 @@
 	"EngineAssociation": "4.10",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Elementals",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"TargetPlatforms": [
 		"MacNoEditor",
 		"WindowsNoEditor",
